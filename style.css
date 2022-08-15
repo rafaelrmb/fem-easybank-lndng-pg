@@ -455,7 +455,11 @@ footer {
     margin-inline: 0;
     margin-bottom: 4rem;
   }
-  
+
+  .socials__nav > *:hover {
+    opacity: 0.6;
+  }
+
   .footer__nav ul {
     grid-column: 3 / 4;
     display: grid;
