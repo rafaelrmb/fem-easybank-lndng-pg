@@ -85,6 +85,7 @@ body p {
 
 main {
   background-color: hsl(var(--light-gray));
+  overflow-x: hidden;
 }
 
 ul {
@@ -368,11 +369,12 @@ footer {
     background-image: url(images/bg-intro-desktop.svg);
     background-size: 65%;
     background-position: 47rem -12rem;
+    position: relative;
   }
 
   .hero img {
     display: block;
-    top: -1.5rem;
+    top: -6rem;
     right: -7rem;
     position: absolute;
   }
