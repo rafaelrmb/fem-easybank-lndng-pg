@@ -194,7 +194,7 @@ header {
     transition: 0.4s ease-in-out;
   }
 
-  .mobile-menu[aria-expanded='true'] {
+  .mobile-menu[aria-expanded="true"] {
     background-image: url(images/icon-x.svg);
     height: 1.5rem;
     width: 1.5rem;
@@ -357,6 +357,16 @@ footer {
   margin-top: 2rem;
   color: hsl(var(--gray-blue));
   font-size: 1rem;
+}
+
+/* ATTRIBUTION */
+.attribution {
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: underline;
 }
 
 /*----------------- MEDIA QUERIES ------------------------------------*/
